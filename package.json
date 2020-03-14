@@ -1,0 +1,20 @@
+{
+  "name": "koronavirus-api",
+  "version": "1.0.0",
+  "description": "Total confirmed cases: https://covid.ourworldindata.org/data/total_cases.csv Total deaths: https://covid.ourworldindata.org/data/total_deaths.csv New confirmed cases: https://covid.ourworldindata.org/data/new_cases.csv New deaths: https://covid.ourworldindata.org/data/new_deaths.csv Full dataset: https://covid.ourworldindata.org/data/full_data.csv",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "csv-parse": "^4.8.8",
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  }
+}
